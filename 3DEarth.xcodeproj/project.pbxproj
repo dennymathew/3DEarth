@@ -12,6 +12,9 @@
 		EFD3F64D1FD51B26006A7A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD3F64B1FD51B26006A7A31 /* Main.storyboard */; };
 		EFD3F64F1FD51B26006A7A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD3F64E1FD51B26006A7A31 /* Assets.xcassets */; };
 		EFD3F6521FD51B26006A7A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD3F6501FD51B26006A7A31 /* LaunchScreen.storyboard */; };
+		EFD3F65B1FD51D63006A7A31 /* StarParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = EFD3F6591FD51D63006A7A31 /* StarParticles.scnp */; };
+		EFD3F65C1FD51D63006A7A31 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3F65A1FD51D63006A7A31 /* star.png */; };
+		EFD3F65E1FD51EAB006A7A31 /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3F65D1FD51EAB006A7A31 /* EarthNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EFD3F64E1FD51B26006A7A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD3F6511FD51B26006A7A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFD3F6531FD51B26006A7A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD3F6591FD51D63006A7A31 /* StarParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = StarParticles.scnp; sourceTree = "<group>"; };
+		EFD3F65A1FD51D63006A7A31 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		EFD3F65D1FD51EAB006A7A31 /* EarthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				EFD3F6471FD51B26006A7A31 /* AppDelegate.swift */,
 				EFD3F6491FD51B26006A7A31 /* ViewController.swift */,
+				EFD3F65D1FD51EAB006A7A31 /* EarthNode.swift */,
+				EFD3F6591FD51D63006A7A31 /* StarParticles.scnp */,
+				EFD3F65A1FD51D63006A7A31 /* star.png */,
 				EFD3F64B1FD51B26006A7A31 /* Main.storyboard */,
 				EFD3F64E1FD51B26006A7A31 /* Assets.xcassets */,
 				EFD3F6501FD51B26006A7A31 /* LaunchScreen.storyboard */,
@@ -124,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD3F6521FD51B26006A7A31 /* LaunchScreen.storyboard in Resources */,
+				EFD3F65C1FD51D63006A7A31 /* star.png in Resources */,
+				EFD3F65B1FD51D63006A7A31 /* StarParticles.scnp in Resources */,
 				EFD3F64F1FD51B26006A7A31 /* Assets.xcassets in Resources */,
 				EFD3F64D1FD51B26006A7A31 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD3F64A1FD51B26006A7A31 /* ViewController.swift in Sources */,
+				EFD3F65E1FD51EAB006A7A31 /* EarthNode.swift in Sources */,
 				EFD3F6481FD51B26006A7A31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

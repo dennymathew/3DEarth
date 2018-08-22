@@ -1,2 +1,2 @@
 # 3DEarth
-3D Earth is a SpriteKit powered iOS application to watch the rotating mother planet in its glory!
+3D Earth is a SpriteKit powered iOS application to watch the rotating mother planet in her glory!
